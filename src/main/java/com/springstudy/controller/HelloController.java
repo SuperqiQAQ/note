@@ -18,7 +18,7 @@ public class HelloController extends HttpServlet{
 		/*ModelAndView mv = new ModelAndView();
 		mv.addObject("spring", "spring mvc");
 		mv.setViewName("hello");*/
-		request.setAttribute("abc", "123");
+		request.setAttribute("abc", "1234");
 		//return "123";
 	}
 }
